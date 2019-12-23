@@ -27,7 +27,6 @@ export default function defaultSelectionRenderer(value, {
       item: 'year',
       title: display === 'days' ? `Change year` : null,
       value: date.getFullYear(),
-      suffix: "⌄"
     },
     {
       active: display === 'days',
@@ -52,7 +51,7 @@ export default function defaultSelectionRenderer(value, {
       className={styles.wrapper}
       aria-label={format(date, dateFormat + ' YYYY', {locale})}
     >
-      {values.map(({handleClick, item, key, value, active, title, suffix}) => {
+      {values.map(({handleClick, item, key, value, active, title}) => {
         return (
           <div
             key={item}
@@ -75,7 +74,6 @@ export default function defaultSelectionRenderer(value, {
                 onClick={handleClick}
               >
                 {value}
-                <span>{suffix}</span>
               </span>
             </CSSTransitionGroup>
           </div>
