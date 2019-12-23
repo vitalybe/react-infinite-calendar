@@ -4,6 +4,6 @@ module.exports = {
   todayLabel: {
     long: 'Today',
   },
-  weekdays: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+  weekdays: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
   weekStartsOn: 0,
 };

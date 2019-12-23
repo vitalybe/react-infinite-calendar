@@ -18,7 +18,7 @@ export default class Weekdays extends PureComponent {
         className={styles.root}
         style={{
           backgroundColor: theme.weekdayColor,
-          color: theme.textColor.active,
+          color: "#65a3bb",
           paddingRight: scrollbarSize,
         }}
         aria-hidden={true}

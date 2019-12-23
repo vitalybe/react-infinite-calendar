@@ -1,9 +1,9 @@
 module.exports = {
   accentColor: '#448AFF',
   floatingNav: {
-    background: 'rgba(56, 87, 138, 0.94)',
-    chevron: '#FFA726',
-    color: '#FFF',
+    background: '#FFFFFF',
+    chevron: '#65a3bb',
+    color: '#65a3bb',
   },
   headerColor: '#448AFF',
   selectionColor: '#559FFF',
@@ -12,5 +12,5 @@ module.exports = {
     default: '#333',
   },
   todayColor: '#FFA726',
-  weekdayColor: '#559FFF',
+  weekdayColor: '#FFFFFF',
 };
