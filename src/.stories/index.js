@@ -122,9 +122,9 @@ storiesOf('Customization', module)
   ))
   .add('Flexible Size', () => (
     <InfiniteCalendar
-      width={'94%'}
-      height={window.innerHeight - 147}
-      rowHeight={70}
+      width={300}
+      height={400}
+      rowHeight={40}
     />
   ))
   .add('Select Year First', () => (
