@@ -97,10 +97,11 @@ export default class Month extends PureComponent {
   render() {
     const {locale: {locale}, monthDate, today, rows, rowHeight, showOverlay, style, theme} = this.props;
     const dateFormat = isSameYear(monthDate, today) ? 'MMMM' : 'MMMM YYYY';
+    const monthColor = monthDate.getMonth() % 2 ? "#eeeff0" : "#fcfcfc";
 
     return (
       <div className={styles.root} style={{...style, lineHeight: `${rowHeight}px`}}>
-  				<div className={styles.rows}>
+  				<div className={styles.rows} style={{backgroundColor: monthColor}}>
   					{this.renderRows()}
   					{showOverlay &&
   						<label
