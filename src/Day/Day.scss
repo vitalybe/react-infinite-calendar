@@ -95,7 +95,6 @@
         position: relative;
         top: 5px;
 
-        font-weight: bold;
         font-size: 12px;
       }
     }
@@ -153,8 +152,8 @@
 
   &.start {
     .selection {
-      border-top-left-radius: 50%;
-      border-bottom-left-radius: 50%;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
     }
 
     &:after {
@@ -178,7 +177,7 @@
     }
     .day {
       top: 0;
-      font-size: 9px;
+      font-size: 12px;
     }
     .month {
       display: none;
@@ -190,12 +189,9 @@
     }
 
     .selection {
-      border-top-right-radius: 50%;
-      border-bottom-right-radius: 50%;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
 
-      color: inherit !important;
-      background-color: #FFF !important;
-      border: 2px solid;
       box-sizing: border-box;
 
       .day {

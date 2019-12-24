@@ -121,10 +121,12 @@ storiesOf('Customization', module)
     />
   ))
   .add('Flexible Size', () => (
+
     <InfiniteCalendar
       width={300}
       height={400}
       rowHeight={40}
+      Component={withRange(withKeyboardSupport(Calendar))}
     />
   ))
   .add('Select Year First', () => (

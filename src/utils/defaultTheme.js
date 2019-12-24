@@ -6,9 +6,9 @@ module.exports = {
     color: '#65a3bb',
   },
   headerColor: '#448AFF',
-  selectionColor: '#559FFF',
+  selectionColor: '#e6eeff',
   textColor: {
-    active: '#FFF',
+    active: '#01222f',
     default: '#333',
   },
   todayColor: '#FFA726',
