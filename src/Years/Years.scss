@@ -104,7 +104,6 @@
         position: relative;
         z-index: 1;
         background-color: blue;
-        color: #FFF !important;
         border: 0;
       }
       &.disabled {
@@ -124,7 +123,7 @@
 
   &:hover, &.active {
     label > span {
-      color: inherit;
+      color: #458aff;
     }
   }
   &:hover, &.active {
