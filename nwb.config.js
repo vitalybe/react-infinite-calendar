@@ -29,7 +29,10 @@ module.exports = {
       'sass-css': {
         modules: true,
         localIdentName: 'Cal__[name]__[local]',
+        test: /\.s[ac]ss$/,
+        loader: require.resolve('sass-loader'),
+        defaultConfig: 'sassLoader'
       }
     }
-  }
+  },
 }
