@@ -123,6 +123,7 @@ storiesOf('Customization', module)
   .add('Flexible Size', () => (
 
     <InfiniteCalendar
+      selected={{start: new Date(), end: new Date()}}
       width={300}
       height={400}
       rowHeight={40}
@@ -134,7 +135,6 @@ storiesOf('Customization', module)
   ))
   .add('Dynamic Selection Color', () => (
     <InfiniteCalendar
-      selected={addDays(today, -1)}
       theme={{
         selectionColor: date => {
           return isBefore(date, today) ? '#EC6150' : '#559FFF';
