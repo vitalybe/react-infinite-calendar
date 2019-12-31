@@ -50,7 +50,7 @@ export default class Years extends Component {
 
   renderMonths(year) {
     const {locale: {locale}, selected, theme, today, min, max, minDate, maxDate} = this.props;
-    const months = getMonthsForYear(year, selected.getDate());
+    const months = getMonthsForYear(year, 1);
 
     return (
       <ol>
