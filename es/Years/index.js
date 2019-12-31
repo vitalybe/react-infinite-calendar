@@ -74,7 +74,7 @@ var Years = (_temp = _class = function (_Component) {
         minDate = _props2.minDate,
         maxDate = _props2.maxDate;
 
-    var months = getMonthsForYear(year, selected.getDate());
+    var months = getMonthsForYear(year, 1);
 
     return React.createElement(
       'ol',

@@ -1,3 +1,11 @@
+README
+======
+Build and publish: `yarn build && git add . && git commit -m "new version" && git push`
+Use: `yarn add https://github.com/vitalybe/react-infinite-calendar`
+
+Original README
+================
+
 <div align="center">
 <img src="https://raw.githubusercontent.com/clauderic/react-infinite-calendar/master/.github/logo.png" width="180"/>
 </div>
